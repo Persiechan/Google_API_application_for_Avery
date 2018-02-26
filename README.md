@@ -2,13 +2,11 @@
 Google API application for Avery
 
 **1. 前期准备**
-  
+
 (1)下载JDK 8或以上，设置好系统环境变量，并在Eclipse中设置:
 
 JRE“windows”→"Preferences"→"JAVA"→“Installed JRES”→“Add”→“Standard VM”→"Next"→"JRE home填写JDK文件夹路径"
-
 和设置编译器:
-
 “windows”→"Preferences"→"JAVA"→“Compiler”→“Compiler compliance level: 1.8”;
   
 (2)用Eclipse的"help"→"Install New Software"→“Work with填写:
