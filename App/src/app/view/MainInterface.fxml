@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.SheetToOracleController">
+   <children>
+      <TabPane layoutX="-148.0" layoutY="28.0" prefHeight="600.0" prefWidth="360.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="Gmail" />
+          <Tab text="Google Sheet To System">
+               <content>
+                  <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab text="To Oracle">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <Label layoutX="24.0" layoutY="28.0" prefHeight="30.0" prefWidth="30.0" text="RBO:" />
+                                    <Label layoutX="9.0" layoutY="58.0" prefHeight="30.0" prefWidth="60.0" text="Item Code:" />
+                                    <ComboBox fx:id="rboComboBox" layoutX="100.0" layoutY="30.0" prefHeight="25.0" prefWidth="190.0" />
+                                    <ComboBox fx:id="itemComboBox" layoutX="100.0" layoutY="60.0" prefHeight="25.0" prefWidth="190.0" />
+                                    <Button fx:id="importOracleButton" layoutX="47.0" layoutY="107.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="107.0" text="导入Oracle">
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Button layoutX="202.0" layoutY="107.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="107.0" text="整理数据">
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor></Button>
+                                    <Button layoutX="47.0" layoutY="170.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="107.0" text="添加Item">
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor></Button>
+                                    <Button layoutX="202.0" layoutY="170.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="107.0" text="退出">
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor></Button>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                      <Tab text="To VIPS" />
+                    </tabs>
+                  </TabPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
