@@ -13,7 +13,7 @@ Google API application for Avery
 
 (2)用Eclipse的 **"help"→"Install New Software"→“Work with** 填写:
 
-> **"http://download.eclipse.org/efxclipse/updates-released/3.1.0/site" → “e(fx)clipse - IDE”,**
+**"http://download.eclipse.org/efxclipse/updates-released/3.1.0/site" → “e(fx)clipse - IDE”,**
 
 安装e(fx)clipse 插件;
 
