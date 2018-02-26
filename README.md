@@ -5,15 +5,15 @@ Google API application for Avery
 
 (1)下载JDK 8或以上，设置好系统环境变量，并在Eclipse中设置:
 
-JRE“windows”→"Preferences"→"JAVA"→“Installed JRES”→“Add”→“Standard VM”→"Next"→"JRE home填写JDK文件夹路径"
+**JRE“windows”→"Preferences"→"JAVA"→“Installed JRES”→“Add”→“Standard VM”→"Next"→"JRE home填写JDK文件夹路径"**
 
 和设置编译器:
 
-“windows”→"Preferences"→"JAVA"→“Compiler”→“Compiler compliance level: 1.8”;
-  
-(2)用Eclipse的"help"→"Install New Software"→“Work with填写:
+**“windows”→"Preferences"→"JAVA"→“Compiler”→“Compiler compliance level: 1.8”;**
 
-"http://download.eclipse.org/efxclipse/updates-released/3.1.0/site" → “e(fx)clipse - IDE”,
+(2)用Eclipse的 **"help"→"Install New Software"→“Work with** 填写:
+
+**"http://download.eclipse.org/efxclipse/updates-released/3.1.0/site" → “e(fx)clipse - IDE”,**
 
 安装e(fx)clipse 插件;
 
@@ -21,11 +21,11 @@ JRE“windows”→"Preferences"→"JAVA"→“Installed JRES”→“Add”→�
   
 *遇到安装e(fx)clipse过程中出错，请按上述方式先安装"XTEXT"插件，“Work with”填写:
 
-“http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/” → “XTEXT”
+**“http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/” → “XTEXT”**
     
 (3)下载并安装JavaFX Scene Builder 2.0或更高版本,在Eclipse中设置:
 
-“windows”→"Preferences"→"JavaFX"→"SceneBuilder executable填写JavaFX Scene Builder 2.0可执行程序的绝对路径";
+**“windows”→"Preferences"→"JavaFX"→"SceneBuilder executable填写JavaFX Scene Builder 2.0可执行程序的绝对路径";**
 
 JavaFX Scene Builder 2.0下载地址:
 
