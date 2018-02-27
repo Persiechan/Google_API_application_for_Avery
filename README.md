@@ -34,7 +34,11 @@ JavaFX Scene Builder 2.0下载地址:
 (4)按向导申请Google Sheet API;
 
 (5)新建project，导入Google Sheet API，Tomcat7，Win32这几个jar包;
-    
+
+(6)关于git的设置如下链接:
+
+[http://www.cnblogs.com/monodin/p/3268679.html](url)
+
 **2.申请Google API**
 
 (1)用个人账号申请Google API;
